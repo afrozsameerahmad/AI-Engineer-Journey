@@ -293,3 +293,27 @@ squares = [x**2 for x in range(10) if x%2==0]  # it will create a new list of sq
 print(squares)  # output: [0, 4, 16, 36, 64] it will create a new list of squares of even numbers from 0 to 9
 
 '''
+
+
+
+'''
+
+---IMPORTANT---
+
+TWO WAYS TO TRAVERSE A LIST
+1-ITEMWISE
+2-INDEXWISE
+
+'''
+
+# itemwise traversal
+l=[1,2,3,4,5]
+for item in l:
+    print(item)  # output: 1 2 3 4 5 it will print each item in the list on a new line
+    
+    
+# indexwise traversal
+l=[1,2,3,4,5]
+for i in range(len(l)):
+    print(l[i])  # output: 1 2 3 4 5 it will print each item in the list on a new line using indexwise traversal
+    
