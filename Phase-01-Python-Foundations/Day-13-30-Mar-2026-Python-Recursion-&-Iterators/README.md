@@ -93,3 +93,6 @@ exercises/
 -   Can solve simple mathematical and list-based problems using recursion.
 -   Can analyze a problem to decide whether a recursive or iterative solution is more appropriate.
 -   Can implement a basic backtracking algorithm for combinatorial problems.
+
+# DAY-14
+Iterators and Generators
