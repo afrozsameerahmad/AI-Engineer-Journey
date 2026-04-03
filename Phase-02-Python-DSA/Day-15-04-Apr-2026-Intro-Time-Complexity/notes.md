@@ -34,13 +34,6 @@ Common forms:
 - `O(n log n)` linearithmic
 - `O(n^2)` quadratic
 
-## 4.1) Other Asymptotic Notations (Basic Idea)
-- Big-Omega (`Ω`) describes the lower bound (best-case style growth bound).
-- Big-Theta (`Θ`) describes a tight bound (both upper and lower grow similarly).
-
-Quick understanding:
-- If an algorithm is `Θ(n)`, its growth is effectively linear from both sides.
-
 ## 5) Dropping Constants and Lower Terms
 - In Big-O, constants are ignored.
 - Lower-order terms are ignored for large `n`.
