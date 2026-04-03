@@ -33,13 +33,12 @@ This day focuses on understanding how algorithm performance scales with input si
 	- Consolidated theory and key takeaways for revision
 
 ## Key Learning Outcomes
-After completing Day 15, I should be able to:
+After completing Day 15, i should be able to:
 1. Explain what time complexity means in simple terms.
 2. Use Big-O notation for basic algorithms.
 3. Analyze complexity of single and nested loops.
 4. Distinguish between `O(1)`, `O(log n)`, `O(n)`, and `O(n^2)`.
 5. Understand worst-case focused analysis for DSA practice.
-6. Recognize basic use of `Ω` and `Θ` notations.
 
 ## Quick Revision
 - Time complexity measures growth of operations with input size.
