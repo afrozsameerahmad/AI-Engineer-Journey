@@ -27,6 +27,10 @@ This day focuses on understanding how algorithm performance scales with input si
 	- `prac_2.ipynb`
 	- `prac_3.ipynb`
 	- `prac_4.ipynb`
+	- `prac_5.ipynb`
+	- `prac_6.ipynb`
+	- `prac_7.ipynb`
+	- `prac_8.ipynb`
 	- Practice drills for tracing and estimating complexity
 
 - `notes.md`
