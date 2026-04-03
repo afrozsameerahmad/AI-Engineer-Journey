@@ -81,3 +81,9 @@ Quick intuition:
 - Loop structure gives a strong first estimate of complexity.
 - Learning complexity early improves problem-solving decisions in DSA.
 - Start solving DSA questions by writing complexity after each approach.
+
+## 12) Practice Checklist for Complexity
+- Identify loop boundaries before counting steps.
+- Check loop updates carefully (`+1`, `*2`, `/2`) to detect `O(n)` vs `O(log n)`.
+- For nested loops, multiply dominant costs.
+- Ignore constants and lower terms in final Big-O form.
