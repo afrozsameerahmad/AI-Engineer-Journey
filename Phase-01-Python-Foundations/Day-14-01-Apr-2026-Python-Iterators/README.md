@@ -3,7 +3,6 @@
 ## Overview
 This day focuses on how Python processes data one item at a time using the iteration protocol.
 
-You covered:
 - Iteration basics
 - Iterable vs iterator
 - Internal behavior of `for` loop
@@ -35,7 +34,7 @@ You covered:
 	- Consolidated theory and key takeaways for revision
 
 ## Key Learning Outcomes
-After completing Day 14, you should be able to:
+After completing Day 14, i should be able to:
 1. Explain the difference between iterable and iterator.
 2. Use `iter()` and `next()` confidently.
 3. Understand why and where `StopIteration` happens.
