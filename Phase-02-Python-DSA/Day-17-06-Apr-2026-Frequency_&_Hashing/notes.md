@@ -46,7 +46,19 @@ for char in s:
 
 ---
 
-## 6) Time & Space Complexity
+## 6) Practice Patterns from Day 17
+- Frequency map for arrays (see `practice/array.ipynb`)
+- Character frequency in strings (brute force & optimal, see `practice/count_char.ipynb`)
+- Count distinct elements (set & hashmap, see `practice/count_distinct_element.ipynb`)
+- Most frequent element (see `practice/most_freq_elem.ipynb`)
+- First non-repeating/repeating element (see `practice/non_rep_elem.ipynb`)
+- Query element frequencies efficiently (see `practice/query_freq.ipynb`)
+- Skill matching system (see `practice/skill_map.ipynb`)
+- Anagram check (sorting & hashmap, see `practice/anagram.ipynb`)
+
+---
+
+## 7) Time & Space Complexity
 - Building a frequency map: O(n) time, O(k) space (k = unique elements)
 - Querying: O(1) per query
 
