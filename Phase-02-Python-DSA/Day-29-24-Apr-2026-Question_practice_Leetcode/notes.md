@@ -5,11 +5,13 @@
 This day focused on core search patterns and common LeetCode practice problems implemented in the `practice/` notebooks and the `binary_search` notebook:
 - Binary Search (iterative & recursive)
 - Binary-search variants (lower/upper bound ideas)
+ - Binary Search (iterative & recursive)
+ - Binary search variants (lower/upper bound ideas)
 - Two-pointer patterns
 - Sliding-window and frequency/hashmap approaches
 - Typical problem hygiene: edge cases, duplicates, and complexity reasoning
 
-See the `practice/` notebooks for worked examples (1st.ipynb…4th.ipynb) and `binary_search/binary_search.ipynb` for binary search basics.
+See the `practice/` notebooks for worked examples (1st.ipynb – 4th.ipynb) and `binary_search/binary_search.ipynb` for binary search basics.
 
 ---
 
@@ -22,16 +24,16 @@ Given a sorted array `nums` and `target`, return index of `target` or `-1` if no
 
 ```python
 def binary_search(nums, target):
-	low, high = 0, len(nums) - 1
-	while low <= high:
-		mid = low + (high - low) // 2
-		if nums[mid] == target:
-			return mid
-		elif nums[mid] < target:
-			low = mid + 1
-		else:
-			high = mid - 1
-	return -1
+    low, high = 0, len(nums) - 1
+    while low <= high:
+        mid = low + (high - low) // 2
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
 ```
 
 Time: O(log n), Space: O(1)
@@ -40,14 +42,14 @@ Time: O(log n), Space: O(1)
 
 ```python
 def binary_search_rec(nums, target, low, high):
-	if low > high:
-		return -1
-	mid = low + (high - low) // 2
-	if nums[mid] == target:
-		return mid
-	if nums[mid] < target:
-		return binary_search_rec(nums, target, mid + 1, high)
-	return binary_search_rec(nums, target, low, mid - 1)
+    if low > high:
+        return -1
+    mid = low + (high - low) // 2
+    if nums[mid] == target:
+        return mid
+    if nums[mid] < target:
+        return binary_search_rec(nums, target, mid + 1, high)
+    return binary_search_rec(nums, target, low, mid - 1)
 
 # call: binary_search_rec(nums, target, 0, len(nums)-1)
 ```
@@ -66,14 +68,14 @@ Example lower-bound template:
 
 ```python
 def lower_bound(nums, target):
-	low, high = 0, len(nums)
-	while low < high:
-		mid = low + (high - low) // 2
-		if nums[mid] < target:
-			low = mid + 1
-		else:
-			high = mid
-	return low
+    low, high = 0, len(nums)
+    while low < high:
+        mid = low + (high - low) // 2
+        if nums[mid] < target:
+            low = mid + 1
+        else:
+            high = mid
+    return low
 ```
 
 ---
