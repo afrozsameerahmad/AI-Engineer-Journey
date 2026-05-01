@@ -1,4 +1,4 @@
-(The file `c:\Users\samee\AI_Engineer_Journey\Phase-02-Python-DSA\Day-33-28-Apr-2026-Leetcode_questions\README.md` exists, but is empty)
+ 
 # Day 33: Rotated-sorted array problems (notebook-based)
 
 ## Overview
