@@ -1,46 +1,35 @@
-(The file `c:\Users\samee\AI_Engineer_Journey\Phase-02-Python-DSA\Day-34-01-May-2026-Linked_List\README.md` exists, but is empty)
-# Linked List — Day 34 (01-May-2026)
 
-Overview
---------
-This day's topic covers Linked Lists (focus: singly linked list). The notes explain core concepts, operations and complexity. Example notebooks implement a basic `Node` and `SinglyLinkedList` with insert, traverse and delete operations.
+# Day 34: Linked List 
 
-Files
------
-- `Linked_list/Singly.ipynb` — worked example implementing a singly linked list.
-- `Linked_list/Linked_list.ipynb` — conceptual notes and examples.
-- `notes.md` — concise study notes and practice exercises.
+## Overview
+This folder contains the Day 34 linked list notes and notebooks. The focus is on understanding linked lists, especially singly linked lists, along with the core operations used in the notebook examples.
 
-Quick start
------------
-1. Open the notebooks in Jupyter (recommended):
+## Notebook / Practice Files
+- `Linked_list/Linked_list.ipynb` — conceptual notes about linked lists and their types.
+- `Linked_list/Singly.ipynb` — singly linked list implementation with insert, traverse, and delete operations.
 
-```bash
-pip install jupyter
-jupyter notebook
-```
+## What The Notebooks Contain
+- Definitions of linked list, head node, and node structure.
+- Use cases for linked lists when insertions and deletions are frequent.
+- Types of linked lists: singly, doubly, and circular.
+- A singly linked list implementation in Python with:
+	- `insert_at_end()`
+	- `insert_at_specified_position()`
+	- `traverse()`
+	- `delete()`
 
-2. Or convert the example notebook to a script and run it directly:
+## Example (from notebooks)
+- Insert `10`, `20`, `30` and traverse the list.
+- Insert `15` at position `1` and traverse again.
+- Delete `20` and verify the final list output.
 
-```bash
-jupyter nbconvert --to script Linked_list/Singly.ipynb
-python Linked_list/Singly.py
-```
+## Complexity
+- Insert at head: O(1)
+- Insert at end: O(n)
+- Insert at position: O(n)
+- Delete: O(n)
+- Traverse: O(n)
 
-Learning objectives
--------------------
-- Understand the structure and use-cases for singly linked lists.
-- Implement basic operations (insert, traverse, delete).
-- Analyze time complexity for common operations.
-- Practice common interview problems (reverse list, detect cycle, find middle, remove nth-from-end).
-
-Exercises
----------
-See `notes.md` for practice problems and suggested approaches.
-
-Next steps
-----------
-- Try the exercises in `notes.md`.
-- Implement a `tail` pointer to make append O(1).
-- Implement a doubly linked list and compare tradeoffs.
+---
+Run the notebooks in Jupyter to step through the examples and practice the linked list operations.
 
